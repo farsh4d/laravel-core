@@ -1,0 +1,44 @@
+{
+    "name": "modules/core",
+    "description": "Core of modules",
+    "type": "matapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farshad Hassani",
+            "email": "farshad.hassani73@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "~5.5|~5.6|~5.7|~5.8",
+        "hashids/hashids": "^2|^3.0|^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0|~7.0|~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Core\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Modules\\Core\\Providers\\CoreServiceProvider"
+          ],
+          "aliases": {
+          }
+        },
+        "branch-alias": {
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
