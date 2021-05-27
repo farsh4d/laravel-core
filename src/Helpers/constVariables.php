@@ -1,8 +1,4 @@
 <?php
-/**
- * Written by Farshad Hassani
- */
-
 
 /**
  * @const string STORAGE_PATH

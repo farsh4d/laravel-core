@@ -1,7 +1,4 @@
 <?php
-/**
- * Written by Farshad Hassani
- */
 
 use Carbon\Carbon;
 use Modules\Core\Classes\Core;

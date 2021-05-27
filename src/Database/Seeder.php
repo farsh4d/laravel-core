@@ -1,7 +1,4 @@
 <?php
-/**
- * Written by Farshad Hassani
- */
 
 namespace Modules\Core\Database;
 
@@ -11,7 +8,6 @@ use Illuminate\Support\Facades\DB;
 
 /**
  * Class Seeder
- *
  * @package Modules\Core\Database
  */
 class Seeder

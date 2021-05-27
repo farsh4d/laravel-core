@@ -1,13 +1,9 @@
 <?php
-/**
- * Writtren by Farshad Hassani
- */
 
 namespace Modules\Core\Contracts;
 
 /**
- * interface Scheduler
- * 
+ * Interface Scheduler
  * @package Modules\Core\Contracts
  */
 interface Scheduler

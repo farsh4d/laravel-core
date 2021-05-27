@@ -1,7 +1,4 @@
 <?php
-/**
- * Written by Farshad Hassani
- */
 
 namespace Modules\Core\Eloquent\Traits;
 
@@ -11,7 +8,6 @@ use Illuminate\Support\Str;
 
 /**
  * Trait AutoSave
- *  
  * @package Modules\Core\Eloquent\Traits
  */
 trait AutoSave

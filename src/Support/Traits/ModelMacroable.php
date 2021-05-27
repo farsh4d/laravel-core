@@ -1,7 +1,4 @@
 <?php
-/**
- * Written By Farshad Hassani
- */
 
 namespace Core\Support\Traits;
 

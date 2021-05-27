@@ -1,13 +1,9 @@
 <?php
-/**
- * Writtren by Farshad Hassani
- */
 
 namespace Modules\Core\Contracts;
 
 /**
- * interface Transformable
- * 
+ * Interface Transformable
  * @package Modules\Core\Contracts
  */
 interface Transformable

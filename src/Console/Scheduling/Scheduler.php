@@ -1,7 +1,4 @@
-<?php 
-/**
- * Written by Farshad Hassani
- */
+<?php
 
 namespace Modules\Core\Console\Scheduling;
 
@@ -14,7 +11,6 @@ use Modules\Core\Contracts\Scheduler as SchedulerContract;
 
 /**
  * Class Scheduler
- * 
  * @package Modules\Core\Console\Scheduling
  */
 abstract class Scheduler implements SchedulerContract

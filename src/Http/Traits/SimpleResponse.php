@@ -1,7 +1,4 @@
 <?php
-/**
- * Written by Farshad Hassani
- */
 
 namespace Modules\Core\Http\Traits;
 

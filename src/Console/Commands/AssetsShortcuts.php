@@ -1,7 +1,4 @@
 <?php
-/**
- * Written by Farshad Hassani
- */
 
 namespace Modules\Core\Console\Commands;
 
@@ -11,7 +8,6 @@ use Illuminate\Filesystem\Filesystem;
 
 /**
  * Class AssetsShortcuts
- *
  * @package Modules\Core\Console\Commands
  */
 class AssetsShortcuts extends Command
@@ -48,8 +44,8 @@ class AssetsShortcuts extends Command
 
         $path = public_path("modules");
 
-        if (!is_dir($path)) {
-            mkdir($path);
+        if (!is_dir($path) && !mkdir($path) && !is_dir($path)) {
+            throw new \RuntimeException(sprintf('Directory "%s" was not created', $path));
         }
 
         $files = glob($path . DIRECTORY_SEPARATOR . '*');

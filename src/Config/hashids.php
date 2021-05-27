@@ -1,7 +1,4 @@
 <?php
-/**
- * Written By Farshad Hassani
- */
 
 return [
     'salt'            => 'oHR9QxLPPsG62z5E0BlE',
