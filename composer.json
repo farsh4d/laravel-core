@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravel/lumen-framework": "~5.5|~5.6|~5.7|~5.8",
+        "php": "^7.3|^8.0",
+        "laravel/lumen-framework": "^8.0",
         "hashids/hashids": "^2|^3.0|^4.0"
     },
     "require-dev": {
